@@ -3,6 +3,7 @@
 from .types import (
     EligibilityInquiryRequestDetail,
     EligibilityInquiryRequestDetailReference,
+    EligibilityInquiryRequestDetailReferenceOne,
     EligibilityInquiryRequestDetailSubscriber,
     EligibilityInquiryRequestDetailSubscriberGender,
     EligibilityInquiryRequestHeader,
@@ -13,6 +14,7 @@ from .types import (
 __all__ = [
     "EligibilityInquiryRequestDetail",
     "EligibilityInquiryRequestDetailReference",
+    "EligibilityInquiryRequestDetailReferenceOne",
     "EligibilityInquiryRequestDetailSubscriber",
     "EligibilityInquiryRequestDetailSubscriberGender",
     "EligibilityInquiryRequestHeader",

@@ -2,6 +2,7 @@
 
 from .eligibility_inquiry_request_detail import EligibilityInquiryRequestDetail
 from .eligibility_inquiry_request_detail_reference import EligibilityInquiryRequestDetailReference
+from .eligibility_inquiry_request_detail_reference_one import EligibilityInquiryRequestDetailReferenceOne
 from .eligibility_inquiry_request_detail_subscriber import EligibilityInquiryRequestDetailSubscriber
 from .eligibility_inquiry_request_detail_subscriber_gender import EligibilityInquiryRequestDetailSubscriberGender
 from .eligibility_inquiry_request_header import EligibilityInquiryRequestHeader
@@ -11,6 +12,7 @@ from .eligibility_inquiry_request_meta_settings import EligibilityInquiryRequest
 __all__ = [
     "EligibilityInquiryRequestDetail",
     "EligibilityInquiryRequestDetailReference",
+    "EligibilityInquiryRequestDetailReferenceOne",
     "EligibilityInquiryRequestDetailSubscriber",
     "EligibilityInquiryRequestDetailSubscriberGender",
     "EligibilityInquiryRequestHeader",

@@ -3,6 +3,7 @@
 from ..core.pydantic_utilities import UniversalBaseModel
 import typing_extensions
 import typing
+import datetime as dt
 from ..core.serialization import FieldMetadata
 from .eligibility_response_response_detail_plan_eligibilitys_item_medicare_part import (
     EligibilityResponseResponseDetailPlanEligibilitysItemMedicarePart,
@@ -15,7 +16,7 @@ import pydantic
 
 
 class EligibilityResponseResponseDetailPlanEligibilitysItem(UniversalBaseModel):
-    end_date: typing_extensions.Annotated[typing.Optional[str], FieldMetadata(alias="EndDate")] = None
+    end_date: typing_extensions.Annotated[typing.Optional[dt.date], FieldMetadata(alias="EndDate")] = None
     medicare_part: typing_extensions.Annotated[
         typing.Optional[EligibilityResponseResponseDetailPlanEligibilitysItemMedicarePart],
         FieldMetadata(alias="MedicarePart"),
@@ -23,7 +24,7 @@ class EligibilityResponseResponseDetailPlanEligibilitysItem(UniversalBaseModel):
     part_c: typing_extensions.Annotated[
         typing.Optional[EligibilityResponseResponseDetailPlanEligibilitysItemPartC], FieldMetadata(alias="PartC")
     ] = None
-    start_date: typing_extensions.Annotated[typing.Optional[str], FieldMetadata(alias="StartDate")] = None
+    start_date: typing_extensions.Annotated[typing.Optional[dt.date], FieldMetadata(alias="StartDate")] = None
 
     if IS_PYDANTIC_V2:
         model_config: typing.ClassVar[pydantic.ConfigDict] = pydantic.ConfigDict(extra="allow", frozen=True)  # type: ignore # Pydantic v2

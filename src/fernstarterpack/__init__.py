@@ -28,6 +28,7 @@ from .client import AsyncStarter, Starter
 from .eligibility_inquiry import (
     EligibilityInquiryRequestDetail,
     EligibilityInquiryRequestDetailReference,
+    EligibilityInquiryRequestDetailReferenceOne,
     EligibilityInquiryRequestDetailSubscriber,
     EligibilityInquiryRequestDetailSubscriberGender,
     EligibilityInquiryRequestHeader,
@@ -43,6 +44,7 @@ __all__ = [
     "ContentTooLargeError",
     "EligibilityInquiryRequestDetail",
     "EligibilityInquiryRequestDetailReference",
+    "EligibilityInquiryRequestDetailReferenceOne",
     "EligibilityInquiryRequestDetailSubscriber",
     "EligibilityInquiryRequestDetailSubscriberGender",
     "EligibilityInquiryRequestHeader",

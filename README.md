@@ -3,7 +3,20 @@
 [![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fcdonel707%2Fjasperedi-python-sdk)
 [![pypi](https://img.shields.io/pypi/v/startersdk)](https://pypi.python.org/pypi/startersdk)
 
-The Fernstarterpack Python library provides convenient access to the Fernstarterpack API from Python.
+The Fernstarterpack Python library provides convenient access to the Fernstarterpack APIs from Python.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Reference](#reference)
+- [Usage](#usage)
+- [Async Client](#async-client)
+- [Exception Handling](#exception-handling)
+- [Advanced](#advanced)
+  - [Retries](#retries)
+  - [Timeouts](#timeouts)
+  - [Custom Client](#custom-client)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -13,7 +26,7 @@ pip install startersdk
 
 ## Reference
 
-A full reference for this library is available [here](./reference.md).
+A full reference for this library is available [here](https://github.com/cdonel707/jasperedi-python-sdk/blob/HEAD/./reference.md).
 
 ## Usage
 
